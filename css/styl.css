@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* zmienne */
+body {
+  background: #f9a;
+  font-family: sans-serif;
+  line-height: 2rem;
+  font-size: 1.2rem; }
+
+/*************** rozszerzanie regół *******************/
+.stroke, .kon {
+  border-left: 1em solid #06a;
+  box-sizing: border-box; }
+
+/* zagnierzdzanie */
+.kon {
+  /*rozszerzanie regół*/
+  font-family: "Lucida Console", Monaco, monospace;
+  background: #000;
+  width: 70%;
+  box-sizing: border-box;
+  margin: 2rem auto;
+  padding: 2em;
+  border-radius: 1em;
+  color: #ededed;
+  font-weight: 500; }
+  .kon pre {
+    font-size: 1.1em; }
+
+.kolor1 {
+  color: #ffb593; }
+
+.kolor2 {
+  color: darkgrey; }
+
+.kolor3 {
+  color: #b8edcc; }
+
+h1 {
+  color: #ff0;
+  border-top: 1px solid #444; }
